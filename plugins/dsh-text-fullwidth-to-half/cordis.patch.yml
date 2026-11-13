@@ -1,0 +1,4 @@
+# 文本工具：全角转半角
+- insert:
+    - id: dsh-text-fullwidth-to-half
+      name: "dsh-text-fullwidth-to-half"

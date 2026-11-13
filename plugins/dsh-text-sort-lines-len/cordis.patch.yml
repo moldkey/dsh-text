@@ -1,0 +1,4 @@
+# 文本工具：按长度排序行
+- insert:
+    - id: dsh-text-sort-lines-len
+      name: "dsh-text-sort-lines-len"

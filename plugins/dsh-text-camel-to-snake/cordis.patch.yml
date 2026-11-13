@@ -1,0 +1,4 @@
+# 文本工具：驼峰转下划线
+- insert:
+    - id: dsh-text-camel-to-snake
+      name: "dsh-text-camel-to-snake"

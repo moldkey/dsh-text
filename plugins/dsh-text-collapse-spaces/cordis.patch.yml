@@ -1,0 +1,4 @@
+# 文本工具：合并多余空格
+- insert:
+    - id: dsh-text-collapse-spaces
+      name: "dsh-text-collapse-spaces"

@@ -1,0 +1,4 @@
+# 文本工具：CSV转文本
+- insert:
+    - id: dsh-text-from-csv
+      name: "dsh-text-from-csv"

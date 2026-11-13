@@ -1,0 +1,4 @@
+# 文本工具：去空行
+- insert:
+    - id: dsh-text-remove-empty-lines
+      name: "dsh-text-remove-empty-lines"

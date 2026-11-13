@@ -1,0 +1,4 @@
+# 文本工具：摘要（前3句）
+- insert:
+    - id: dsh-text-text-summary
+      name: "dsh-text-text-summary"

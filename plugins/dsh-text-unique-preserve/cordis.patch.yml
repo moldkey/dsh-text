@@ -1,0 +1,4 @@
+# 文本工具：去重保序
+- insert:
+    - id: dsh-text-unique-preserve
+      name: "dsh-text-unique-preserve"

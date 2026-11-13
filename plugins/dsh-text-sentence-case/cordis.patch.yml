@@ -1,0 +1,4 @@
+# 文本工具：句首大写
+- insert:
+    - id: dsh-text-sentence-case
+      name: "dsh-text-sentence-case"

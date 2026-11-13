@@ -1,0 +1,4 @@
+# 文本工具：去重行
+- insert:
+    - id: dsh-text-dedupe-lines
+      name: "dsh-text-dedupe-lines"

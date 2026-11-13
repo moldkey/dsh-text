@@ -1,0 +1,16 @@
+{
+  "name": "dsh-text-duplicate-lines",
+  "version": "0.1.0",
+  "description": "列出重复出现的行",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": ["lib", "cordis.patch.yml", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "text", "tool"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-text-duplicate-lines.git"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.2.0-rc.2" }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "dsh-text-replace",
+  "version": "0.1.0",
+  "description": "把 a 全部替换为 b",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": ["lib", "cordis.patch.yml", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "text", "tool"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-text-replace.git"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.2.0-rc.2" }
+}

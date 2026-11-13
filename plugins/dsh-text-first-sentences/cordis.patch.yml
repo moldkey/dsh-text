@@ -1,0 +1,4 @@
+# 文本工具：取前N句
+- insert:
+    - id: dsh-text-first-sentences
+      name: "dsh-text-first-sentences"

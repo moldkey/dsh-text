@@ -1,0 +1,4 @@
+# 文本工具：转短横线
+- insert:
+    - id: dsh-text-kebab-case
+      name: "dsh-text-kebab-case"

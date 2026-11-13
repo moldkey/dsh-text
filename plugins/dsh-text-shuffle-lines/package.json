@@ -1,0 +1,16 @@
+{
+  "name": "dsh-text-shuffle-lines",
+  "version": "0.1.0",
+  "description": "随机打乱行顺序",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": ["lib", "cordis.patch.yml", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "text", "tool"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-text-shuffle-lines.git"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.2.0-rc.2" }
+}

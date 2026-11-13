@@ -1,0 +1,4 @@
+# 文本工具：去行首尾空格
+- insert:
+    - id: dsh-text-trim-lines
+      name: "dsh-text-trim-lines"

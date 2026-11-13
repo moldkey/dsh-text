@@ -1,0 +1,4 @@
+# 文本工具：提取邮箱
+- insert:
+    - id: dsh-text-extract-emails
+      name: "dsh-text-extract-emails"

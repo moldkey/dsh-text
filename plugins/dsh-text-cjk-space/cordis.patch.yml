@@ -1,0 +1,4 @@
+# 文本工具：中英文加空格
+- insert:
+    - id: dsh-text-cjk-space
+      name: "dsh-text-cjk-space"

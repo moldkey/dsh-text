@@ -1,0 +1,4 @@
+# 文本工具：反转行序
+- insert:
+    - id: dsh-text-reverse-lines
+      name: "dsh-text-reverse-lines"

@@ -1,0 +1,4 @@
+# 文本工具：制表符转空格
+- insert:
+    - id: dsh-text-tabs-to-spaces
+      name: "dsh-text-tabs-to-spaces"

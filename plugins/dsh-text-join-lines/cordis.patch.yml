@@ -1,0 +1,4 @@
+# 文本工具：合并行
+- insert:
+    - id: dsh-text-join-lines
+      name: "dsh-text-join-lines"

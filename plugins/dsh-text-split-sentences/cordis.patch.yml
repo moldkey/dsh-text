@@ -1,0 +1,4 @@
+# 文本工具：拆分句子
+- insert:
+    - id: dsh-text-split-sentences
+      name: "dsh-text-split-sentences"

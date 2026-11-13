@@ -1,0 +1,4 @@
+# 文本工具：去除HTML标签
+- insert:
+    - id: dsh-text-strip-html
+      name: "dsh-text-strip-html"

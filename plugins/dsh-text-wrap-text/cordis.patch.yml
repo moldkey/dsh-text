@@ -1,0 +1,4 @@
+# 文本工具：文本换行
+- insert:
+    - id: dsh-text-wrap-text
+      name: "dsh-text-wrap-text"

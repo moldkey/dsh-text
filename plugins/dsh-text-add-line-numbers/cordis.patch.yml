@@ -1,0 +1,4 @@
+# 文本工具：加行号
+- insert:
+    - id: dsh-text-add-line-numbers
+      name: "dsh-text-add-line-numbers"

@@ -1,0 +1,16 @@
+{
+  "name": "dsh-text-strip-html",
+  "version": "0.1.0",
+  "description": "去掉 script/style 与所有标签",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": ["lib", "cordis.patch.yml", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "text", "tool"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-text-strip-html.git"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.2.0-rc.2" }
+}

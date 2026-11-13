@@ -1,0 +1,4 @@
+# 文本工具：加引号
+- insert:
+    - id: dsh-text-wrap-quotes
+      name: "dsh-text-wrap-quotes"

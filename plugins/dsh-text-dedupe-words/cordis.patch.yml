@@ -1,0 +1,4 @@
+# 文本工具：词去重
+- insert:
+    - id: dsh-text-dedupe-words
+      name: "dsh-text-dedupe-words"

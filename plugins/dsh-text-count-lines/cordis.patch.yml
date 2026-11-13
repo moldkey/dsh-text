@@ -1,0 +1,4 @@
+# 文本工具：统计行数
+- insert:
+    - id: dsh-text-count-lines
+      name: "dsh-text-count-lines"

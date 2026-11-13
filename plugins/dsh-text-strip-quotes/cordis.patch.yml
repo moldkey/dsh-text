@@ -1,0 +1,4 @@
+# 文本工具：去引号
+- insert:
+    - id: dsh-text-strip-quotes
+      name: "dsh-text-strip-quotes"

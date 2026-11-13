@@ -1,0 +1,4 @@
+# 文本工具：大小写互换
+- insert:
+    - id: dsh-text-swap-case
+      name: "dsh-text-swap-case"

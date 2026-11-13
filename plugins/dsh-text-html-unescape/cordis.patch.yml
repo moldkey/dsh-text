@@ -1,0 +1,4 @@
+# 文本工具：HTML反转义
+- insert:
+    - id: dsh-text-html-unescape
+      name: "dsh-text-html-unescape"

@@ -1,0 +1,4 @@
+# 文本工具：按字数截断
+- insert:
+    - id: dsh-text-truncate
+      name: "dsh-text-truncate"

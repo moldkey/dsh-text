@@ -1,0 +1,4 @@
+# 文本工具：随机打乱行
+- insert:
+    - id: dsh-text-shuffle-lines
+      name: "dsh-text-shuffle-lines"

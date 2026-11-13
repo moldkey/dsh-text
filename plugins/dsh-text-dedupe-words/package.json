@@ -1,0 +1,16 @@
+{
+  "name": "dsh-text-dedupe-words",
+  "version": "0.1.0",
+  "description": "按词去重，保留顺序",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": ["lib", "cordis.patch.yml", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "text", "tool"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-text-dedupe-words.git"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.2.0-rc.2" }
+}

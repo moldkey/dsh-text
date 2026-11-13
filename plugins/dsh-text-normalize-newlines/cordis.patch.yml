@@ -1,0 +1,4 @@
+# 文本工具：统一换行
+- insert:
+    - id: dsh-text-normalize-newlines
+      name: "dsh-text-normalize-newlines"

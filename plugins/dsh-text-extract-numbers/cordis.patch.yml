@@ -1,0 +1,4 @@
+# 文本工具：提取数字
+- insert:
+    - id: dsh-text-extract-numbers
+      name: "dsh-text-extract-numbers"

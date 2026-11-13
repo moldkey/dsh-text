@@ -1,0 +1,4 @@
+# 文本工具：找出重复行
+- insert:
+    - id: dsh-text-duplicate-lines
+      name: "dsh-text-duplicate-lines"

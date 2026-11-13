@@ -1,0 +1,4 @@
+# 文本工具：去标点
+- insert:
+    - id: dsh-text-remove-punctuation
+      name: "dsh-text-remove-punctuation"
