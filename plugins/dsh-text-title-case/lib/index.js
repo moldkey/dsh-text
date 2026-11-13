@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_title_case",
     description: "首字母大写：每个单词首字母大写",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

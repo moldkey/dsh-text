@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_from_csv",
     description: "CSV转文本：CSV 转成制表符分隔文本",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

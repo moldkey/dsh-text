@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_lower",
     description: "转小写：把文本转成小写",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

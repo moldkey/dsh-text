@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_swap_case",
     description: "大小写互换：大写变小写、小写变大写",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

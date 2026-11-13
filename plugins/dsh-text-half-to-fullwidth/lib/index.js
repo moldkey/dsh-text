@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_half_to_fullwidth",
     description: "半角转全角：半角字符转全角",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

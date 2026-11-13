@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_tabs_to_spaces",
     description: "制表符转空格：Tab 换 4 个空格",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

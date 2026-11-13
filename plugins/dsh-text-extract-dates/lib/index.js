@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_extract_dates",
     description: "提取日期：提取 2026-11-14 这类日期",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

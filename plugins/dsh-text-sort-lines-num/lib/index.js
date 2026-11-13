@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_sort_lines_num",
     description: "按数字排序行：按行首数字排序",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

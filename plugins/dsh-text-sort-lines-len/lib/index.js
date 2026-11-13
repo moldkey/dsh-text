@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_sort_lines_len",
     description: "按长度排序行：按行长排序",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

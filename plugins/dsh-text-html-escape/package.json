@@ -1,7 +1,7 @@
 {
   "name": "dsh-text-html-escape",
   "version": "0.1.0",
-  "description": "把 & < > \" 转成实体",
+  "description": "把 & < > " 转成实体",
   "type": "module",
   "main": "lib/index.js",
   "files": ["lib", "cordis.patch.yml", "README.md"],
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moldkey/dsh-text-html-escape.git"
+    "url": "git+https://github.com/moldkey/dsh-text.git"
   },
   "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
   "engines": { "dsh": ">=0.2.0-rc.2" }

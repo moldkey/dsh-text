@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_trim_lines",
     description: "去行首尾空格：逐行 trim",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

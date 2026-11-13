@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_number_lines",
     description: "数字列表：每行前加 1. 2. 3.",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

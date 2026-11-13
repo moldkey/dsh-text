@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_sort_lines",
     description: "按字母排序行：按字典序排序每一行",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

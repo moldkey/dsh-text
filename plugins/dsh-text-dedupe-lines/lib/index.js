@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_dedupe_lines",
     description: "去重行：按整行去重，保留首次出现顺序",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

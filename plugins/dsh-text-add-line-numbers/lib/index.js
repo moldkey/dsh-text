@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_add_line_numbers",
     description: "加行号：每行前加行号",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

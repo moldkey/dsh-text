@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_extract_urls",
     description: "提取网址：提取文本中的 http(s) 链接",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

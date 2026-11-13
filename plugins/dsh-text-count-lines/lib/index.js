@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_count_lines",
     description: "统计行数：统计文本行数",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_dedupe_words",
     description: "词去重：按词去重，保留顺序",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

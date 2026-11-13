@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_unique_preserve",
     description: "去重保序：去重并保持原顺序",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

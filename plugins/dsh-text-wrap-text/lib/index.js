@@ -181,8 +181,8 @@ export function apply(ctx, config) {
     name: "text_wrap_text",
     description: "文本换行：按宽度硬换行（a=宽度）",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

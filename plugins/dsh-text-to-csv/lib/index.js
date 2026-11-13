@@ -181,8 +181,8 @@ export function apply(ctx, config) {
     name: "text_to_csv",
     description: "文本转CSV：按分隔符转成带引号的 CSV（a=分隔符）",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

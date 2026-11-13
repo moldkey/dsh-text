@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_strip_html",
     description: "去除HTML标签：去掉 script/style 与所有标签",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

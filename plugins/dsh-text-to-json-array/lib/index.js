@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_to_json_array",
     description: "转JSON数组：每行变成一个 JSON 字符串元素",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

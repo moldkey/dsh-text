@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_remove_punctuation",
     description: "去标点：删除所有标点与符号",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

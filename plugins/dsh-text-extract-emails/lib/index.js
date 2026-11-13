@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_extract_emails",
     description: "提取邮箱：提取文本中的邮箱地址",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

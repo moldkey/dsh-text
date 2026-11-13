@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_split_sentences",
     description: "拆分句子：按中英文句号问号感叹号断句",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

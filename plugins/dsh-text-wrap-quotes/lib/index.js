@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_wrap_quotes",
     description: "加引号：每行加双引号",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_text_summary",
     description: "摘要（前3句）：默认取前 3 句作为摘要",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

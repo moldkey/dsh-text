@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_word_freq",
     description: "词频统计：按词频从高到低输出",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

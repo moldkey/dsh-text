@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_reverse_lines",
     description: "反转行序：把行的顺序倒过来",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

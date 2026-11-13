@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_csv_to_markdown",
     description: "CSV转Markdown表：CSV 转 Markdown 表格",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

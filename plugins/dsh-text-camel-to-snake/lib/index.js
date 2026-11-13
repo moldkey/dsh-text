@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_camel_to_snake",
     description: "驼峰转下划线：camelCase → snake_case",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

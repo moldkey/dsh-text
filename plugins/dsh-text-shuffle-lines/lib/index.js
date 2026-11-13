@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_shuffle_lines",
     description: "随机打乱行：随机打乱行顺序",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

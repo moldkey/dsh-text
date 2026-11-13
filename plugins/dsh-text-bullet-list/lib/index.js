@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_bullet_list",
     description: "无序列表：每行前加 - ",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

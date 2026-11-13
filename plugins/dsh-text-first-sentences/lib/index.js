@@ -181,8 +181,8 @@ export function apply(ctx, config) {
     name: "text_first_sentences",
     description: "取前N句：取前 N 句（a=N）",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

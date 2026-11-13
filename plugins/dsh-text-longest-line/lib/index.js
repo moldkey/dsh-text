@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_longest_line",
     description: "最长行：找出最长的一行",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

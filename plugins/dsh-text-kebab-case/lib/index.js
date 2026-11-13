@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_kebab_case",
     description: "转短横线：转成 kebab-case",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

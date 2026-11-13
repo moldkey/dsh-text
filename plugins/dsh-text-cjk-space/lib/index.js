@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_cjk_space",
     description: "中英文加空格：中文与英文数字之间加空格",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_extract_numbers",
     description: "提取数字：提取文本中的数字",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

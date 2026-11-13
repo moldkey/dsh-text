@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_join_lines",
     description: "合并行：去掉换行，合成一段",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

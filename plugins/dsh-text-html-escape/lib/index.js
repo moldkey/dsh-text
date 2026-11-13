@@ -1,7 +1,7 @@
 /**
  * 文本工具：HTML转义
  *
- * 把 & < > \" 转成实体
+ * 把 & < > " 转成实体
  */
 
 export const name = "dsh-text-html-escape";
@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_html_escape",
     description: "HTML转义：把 & < > \" 转成实体",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

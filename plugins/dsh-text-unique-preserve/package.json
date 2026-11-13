@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moldkey/dsh-text-unique-preserve.git"
+    "url": "git+https://github.com/moldkey/dsh-text.git"
   },
   "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
   "engines": { "dsh": ">=0.2.0-rc.2" }

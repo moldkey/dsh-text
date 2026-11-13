@@ -181,8 +181,8 @@ export function apply(ctx, config) {
     name: "text_top_keywords",
     description: "关键词提取：按词频提取前 N 个关键词（a=N）",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

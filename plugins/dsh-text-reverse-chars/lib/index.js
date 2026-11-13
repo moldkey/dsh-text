@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_reverse_chars",
     description: "反转字符：把整段文本倒序",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

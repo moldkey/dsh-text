@@ -181,8 +181,8 @@ export function apply(ctx, config) {
     name: "text_truncate",
     description: "按字数截断：截断到 N 个字符（a=N）",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
-      a: { type: "string", description: "参数 a" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
+      a: { "type": "string", "description": "参数 a" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

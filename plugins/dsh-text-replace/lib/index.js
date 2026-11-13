@@ -181,9 +181,9 @@ export function apply(ctx, config) {
     name: "text_replace",
     description: "查找替换：把 a 全部替换为 b",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
-      a: { type: "string", description: "参数 a" },
-      b: { type: "string", description: "参数 b" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
+      a: { "type": "string", "description": "参数 a" },
+      b: { "type": "string", "description": "参数 b" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

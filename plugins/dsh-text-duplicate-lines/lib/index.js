@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_duplicate_lines",
     description: "找出重复行：列出重复出现的行",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

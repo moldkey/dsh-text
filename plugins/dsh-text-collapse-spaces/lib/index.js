@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_collapse_spaces",
     description: "合并多余空格：连续空格压成一个",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

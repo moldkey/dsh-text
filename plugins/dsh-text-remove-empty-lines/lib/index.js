@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_remove_empty_lines",
     description: "去空行：删除空白行",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

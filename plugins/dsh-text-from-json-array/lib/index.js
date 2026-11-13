@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_from_json_array",
     description: "JSON数组转文本：把 JSON 数组还原成多行文本",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {

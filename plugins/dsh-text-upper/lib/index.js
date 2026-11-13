@@ -181,7 +181,7 @@ export function apply(ctx, config) {
     name: "text_upper",
     description: "转大写：把文本转成大写",
     parameters: {
-      text: { type: "string", required: true, description: "要处理的文本" },
+      text: { "type": "string", required: true, "description": "要处理的文本" },
     },
     output: TEXT_OUTPUT,
     async execute(args) {
